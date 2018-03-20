@@ -24,4 +24,6 @@
     <dubbo:service interface="co.loli.service.CategoryService" ref="categoryServiceImpl" timeout="20000"/>
     <dubbo:service interface="co.loli.service.ProductService" ref="productServiceImpl" timeout="20000"/>
     <dubbo:service interface="co.loli.service.ProductdescService" ref="productdescServiceImpl" timeout="20000"/>
+    <dubbo:service interface="co.loli.service.ContentcategoryService" ref="contentcategoryImpl" timeout="20000"/>
+    <dubbo:service interface="co.loli.service.ContentService" ref="contentServiceImpl" timeout="20000"/>
 </beans>

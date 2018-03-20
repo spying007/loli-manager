@@ -77,7 +77,7 @@ public class BaseServiceImpl<T> implements BaseService<T> {
 
     @Override
     public void updateSelective(T t) {
-        this.updateSelective(t);
+        this.mapper.updateByPrimaryKeySelective(t);
 
     }
 
